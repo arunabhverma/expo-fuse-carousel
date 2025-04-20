@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Security() {
   return (
-    <View>
-      <Text>security</Text>
+    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+      <Text>Security</Text>
     </View>
   );
 }

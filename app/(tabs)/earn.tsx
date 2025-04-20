@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Earn() {
   return (
-    <View>
-      <Text>earn</Text>
+    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+      <Text>Earn</Text>
     </View>
   );
 }

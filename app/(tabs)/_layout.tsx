@@ -40,6 +40,7 @@ export default function TabLayout() {
         name="index"
         options={{
           title: "Home",
+          tabBarLabel: "Home",
           tabBarIcon: ({ color }) => (
             <Image
               source={require("@/assets/svgs/home.svg")}
@@ -53,6 +54,7 @@ export default function TabLayout() {
         name="earn"
         options={{
           title: "Earn",
+          tabBarLabel: "Earn",
           tabBarIcon: ({ color }) => (
             <Image
               source={require("@/assets/svgs/bar.svg")}
@@ -66,6 +68,7 @@ export default function TabLayout() {
         name="security"
         options={{
           title: "Security",
+          tabBarLabel: "Security",
           tabBarIcon: ({ color }) => (
             <Image
               source={require("@/assets/svgs/shield.svg")}
@@ -79,6 +82,7 @@ export default function TabLayout() {
         name="settings"
         options={{
           title: "Settings",
+          tabBarLabel: "Settings",
           tabBarIcon: ({ color }) => (
             <Image
               source={require("@/assets/svgs/setting.svg")}

@@ -15,7 +15,6 @@ import Animated, {
 import { BlurView } from "expo-blur";
 import { CarouselItem } from "@/mock/carousel-data";
 import { Image } from "expo-image";
-import { PressableScale } from "./PressableScale";
 
 const AnimatedBlurView = Animated.createAnimatedComponent(BlurView);
 
@@ -66,7 +65,7 @@ export const RenderItem: React.FC<RenderItemProps> = (props) => {
 
   return (
     <Animated.View style={[animatedStyle, styles.itemContainer]}>
-      <PressableScale style={styles.cardContainer}>
+      <View style={styles.cardContainer}>
         <AnimatedBlurView
           animatedProps={animatedProps}
           tint="prominent"
@@ -79,7 +78,7 @@ export const RenderItem: React.FC<RenderItemProps> = (props) => {
             <Text style={styles.description}>{item.description}</Text>
           </View>
         </View>
-      </PressableScale>
+      </View>
     </Animated.View>
   );
 };
